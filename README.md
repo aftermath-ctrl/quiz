@@ -1,11 +1,18 @@
 # quiz
 
-Language:Python3
+Language:Python3.X
 
 problem 1: Web server (with optional secure communication).
 
          
          ./webserver.py
+         
+  extension:secure server.To generate key and cert files with OpenSSL use following command:
+          
+          openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365
+   run
+      
+         ./secure-server.py
 
 
 Problem 2: Re-routing/forwarding communication.
@@ -32,7 +39,7 @@ Problem 3: Diction & dictionary scrapping.
 
 
 
-Problem 4: Markdown engine.
+Problem 4: Markdown engine.This command will generate two files: cities.md and cities.html
  
         
 

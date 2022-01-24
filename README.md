@@ -5,16 +5,22 @@ Language:Python3
 problem 1: Web server (with optional secure communication).
 
          
-        run ./webserver.py
+         ./webserver.py
 
 
 Problem 2: Re-routing/forwarding communication.
 
-        first spin the server in one terminal window
+  first spin the server in one terminal window
+  
         ./server.py
 
-        then start the client server on another terminal window
+  then start the client server on another terminal window
+        
         ./client.py
+     
+  extension:single server to multiple client endpoints.
+   
+          ./multiserver.py
 
 
 Problem 3: Diction & dictionary scrapping.
@@ -22,17 +28,17 @@ Problem 3: Diction & dictionary scrapping.
         pip install requests
         pip install beautifulsoup4
 
-        run ./dictionaries.py
+        ./dictionaries.py
 
 
 
 Problem 4: Markdown engine.
 
-         run ./markdown.py
+         ./markdown.py
 
 
 
 
 Problem 5: Fermat near-misses.
 
-         run ./fermet.py
+         ./fermet.py

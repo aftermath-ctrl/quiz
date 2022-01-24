@@ -4,8 +4,8 @@ Language:Python3
 
 problem 1: Web server (with optional secure communication).
 
-
-          run ./webserver.py
+         
+        run ./webserver.py
 
 
 Problem 2: Re-routing/forwarding communication.
@@ -27,10 +27,12 @@ Problem 3: Diction & dictionary scrapping.
 
 
 Problem 4: Markdown engine.
+
          run ./markdown.py
 
 
 
 
 Problem 5: Fermat near-misses.
-          run ./fermet.py
+
+         run ./fermet.py

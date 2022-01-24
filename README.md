@@ -33,8 +33,15 @@ Problem 3: Diction & dictionary scrapping.
 
 
 Problem 4: Markdown engine.
+ 
+        
 
-         ./markdown.py
+        source env/bin/activate
+        
+        pip install markdown
+
+
+        ./markdown.py
 
 
 
